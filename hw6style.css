@@ -1,0 +1,25 @@
+.block{
+	box-sizing: border-box;
+	width: 25%;
+	border:1px solid black;
+	float: left;
+	height: 25%;
+}
+.pic{
+	box-sizing: border-box;
+	width:  60%;
+	height: 30%;
+}
+.picblock{
+	box-sizing: border-box;
+	width: 25%;
+	border: 1px solid black;
+	float: left;
+	font-size: 9px;
+}
+@media only screen and (max-width: 600px){
+	.sm{
+		box-sizing: border-box;
+		width: 100%;
+	}
+}
